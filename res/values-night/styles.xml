@@ -24,7 +24,7 @@
 
     <style name="BaseActivityTheme" parent="Theme.AppCompat">
         <item name="android:imageButtonStyle">@style/ImageButtonStyle</item>
-        <item name="android:background">@*android:color/material_grey_850</item>
+
         <item name="alertDialogTheme">@style/AlertDialogTheme</item>
         <item name="colorAccent">@color/color_accent</item>
         <item name="colorPrimaryDark">@color/status_bar</item>
