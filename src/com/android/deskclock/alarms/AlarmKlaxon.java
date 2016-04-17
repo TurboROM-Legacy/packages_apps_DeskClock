@@ -52,7 +52,7 @@ public final class AlarmKlaxon {
         stop(context);
 
         if (!AlarmInstance.NO_RINGTONE_URI.equals(instance.mRingtone)) {
-            getAsyncRingtonePlayer(context).play(instance.mRingtone, instance.mIncreasingVolume);
+            getAsyncRingtonePlayer(context).play(instance.mRingtone);
         }
 
         if (instance.mVibrate) {
